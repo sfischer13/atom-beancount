@@ -1,0 +1,14 @@
+{
+    "name": "beancount",
+    "version": "0.0.0",
+    "description": "Bundle for beancount",
+    "repository": "https://github.com/sfischer13/atom-beancount",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {
+        "language-beancount": "^0.6.0",
+        "formatter-beancount": "^0.1.0"
+    }
+}
