@@ -2,6 +2,10 @@
   "name": "beancount",
   "version": "0.1.2",
   "description": "Bundle for beancount",
+  "keywords": [
+    "beancount",
+    "ledger"
+  ],
   "repository": "https://github.com/sfischer13/atom-beancount",
   "license": "MIT",
   "engines": {
