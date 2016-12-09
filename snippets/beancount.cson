@@ -1,0 +1,21 @@
+'.source.beancount':
+
+  'Balance':
+    'prefix': 'b'
+    'body': '${1:2016-01-01} balance ${2:Assets:Account}    ${3:1 EUR}$0'
+
+  'Event':
+    'prefix': 'e'
+    'body': '${1:2016-01-01} event "${2:Type}" "${3:Description}"$0'
+
+  'Note':
+    'prefix': 'n'
+    'body': '${1:2016-01-01} note ${2:Assets:Account} "${3:Note}"$0'
+
+  'Transaction':
+    'prefix': 't'
+    'body': '${1:2016-01-01} * "${2:Narration}"\n    ${3:Expenses:Account}    ${4:1 EUR}$0'
+
+  'Transaction with Payee':
+    'prefix': 'T'
+    'body': '${1:2016-01-01} * "${2:Payee}" "${3:Narration}"\n    ${3:Expenses:Account}    ${4:1 EUR}$0'
