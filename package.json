@@ -1,5 +1,6 @@
 {
   "name": "beancount",
+  "main": "./lib/beancount",
   "version": "0.2.3",
   "private": true,
   "description": "Bundle for beancount",
@@ -11,5 +12,13 @@
   "license": "MIT",
   "engines": {
     "atom": ">=1.10.0 <2.0.0"
-  }
+  },
+  "dependencies": {
+    "atom-package-deps": "^4.3.1"
+  },
+  "package-deps": [
+    "formatter-beancount",
+    "language-beancount",
+    "linter-beancount"
+  ]
 }
