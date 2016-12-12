@@ -14,8 +14,8 @@
 
   'Transaction':
     'prefix': 't'
-    'body': '${1:2016-01-01} * "${2:Narration}"\n    ${3:Expenses:Account}    ${4:1 EUR}$0'
+    'body': '${1:2016-01-01} * "${2:Narration}"\n    ${3:Expenses:Account}    ${4:1 EUR}\n    $0'
 
   'Transaction with Payee':
     'prefix': 'T'
-    'body': '${1:2016-01-01} * "${2:Payee}" "${3:Narration}"\n    ${3:Expenses:Account}    ${4:1 EUR}$0'
+    'body': '${1:2016-01-01} * "${2:Payee}" "${3:Narration}"\n    ${4:Expenses:Account}    ${5:1 EUR}\n    $0'
