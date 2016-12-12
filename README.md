@@ -9,3 +9,9 @@ For full `beancount` support, you should install the following packages:
 - `language-beancount`
 - `linter`
 - `linter-beancount`
+
+## Install
+
+```
+apm install beancount
+```
