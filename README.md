@@ -33,5 +33,5 @@ Beancount: Insert Today's Date
 
 ```
 'atom-text-editor':
-  'ctrl-alt-t': 'beancount:today'
+  'alt-b t': 'beancount:today'
 ```
