@@ -1,0 +1,14 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Beancount'
+      'submenu': [
+        {
+          'label': 'Insert Today\'s Date'
+          'command': 'beancount:today'
+        }
+      ]
+    ]
+  }
+]

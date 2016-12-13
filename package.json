@@ -8,13 +8,17 @@
     "beancount",
     "ledger"
   ],
+  "activationCommands": {
+    "atom-text-editor": "beancount:today"
+  },
   "repository": "https://github.com/sfischer13/atom-beancount",
   "license": "MIT",
   "engines": {
     "atom": ">=1.10.0 <2.0.0"
   },
   "dependencies": {
-    "atom-package-deps": "^4.3.1"
+    "atom-package-deps": "^4.3.1",
+    "moment": "^2.17.1"
   },
   "package-deps": [
     "formatter-beancount",
