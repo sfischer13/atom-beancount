@@ -7,6 +7,8 @@ module.exports = Beancount =
 
   activate: (state) ->
     require('atom-package-deps').install('beancount')
+      .then ->
+          console.log("Installed beancount dependencies.")
     @subscriptions = new CompositeDisposable
     @subscriptions.add atom.commands.add 'atom-text-editor', 'beancount:today': => @today()
 
